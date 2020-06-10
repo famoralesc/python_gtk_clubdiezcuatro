@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.6 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkWindow" id="FrmPrincipal">
+    <property name="visible">True</property>
+    <property name="title" translatable="yes">Titulo</property>
+    <signal name="delete_event" handler="on_exit"/>
+    <child>
+      <widget class="GtkVBox" id="vbox1">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkMenuBar" id="menubar1">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkMenuItem" id="conecciones1">
+                <property name="visible">True</property>
+                <property name="label" translatable="yes">_Archivo</property>
+                <property name="use_underline">True</property>
+                <child>
+                  <widget class="GtkMenu" id="conecciones1_menu">
+                    <child>
+                      <widget class="GtkImageMenuItem" id="mnuConectar">
+                        <property name="label">Conectar</property>
+                        <property name="visible">True</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <signal name="activate" handler="on_mnuConectar_activate"/>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkImageMenuItem" id="mnuDesconectar">
+                        <property name="label">Desconectar</property>
+                        <property name="visible">True</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <signal name="activate" handler="on_mnuDesconectar_activate"/>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkImageMenuItem" id="mnuSalir">
+                        <property name="label">Salir</property>
+                        <property name="visible">True</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <signal name="activate" handler="on_mnuSalir_activate"/>
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkMenuItem" id="mnuMaestros">
+                <property name="visible">True</property>
+                <property name="label" translatable="yes">_Maestros</property>
+                <property name="use_underline">True</property>
+                <child>
+                  <widget class="GtkMenu" id="mnuMaestros_menu">
+                    <child>
+                      <widget class="GtkMenuItem" id="mnuusuarios">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">Gesti&#xF3;n de Usuarios</property>
+                        <property name="use_underline">True</property>
+                        <signal name="activate" handler="on_mnuusuarios_activate"/>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkSeparatorMenuItem" id="separador3">
+                        <property name="visible">True</property>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkMenuItem" id="mnubeneficios">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">Beneficios</property>
+                        <property name="use_underline">True</property>
+                        <signal name="activate" handler="on_mnubeneficios_activate"/>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkMenuItem" id="mnuinstituciones">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">Instituciones</property>
+                        <property name="use_underline">True</property>
+                        <signal name="activate" handler="on_mnuinstituciones_activate"/>
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkMenuItem" id="mnuSistema">
+                <property name="visible">True</property>
+                <property name="label" translatable="yes">_Gesti&#xF3;n de Clientes</property>
+                <property name="use_underline">True</property>
+                <child>
+                  <widget class="GtkMenu" id="mnuSistema_menu">
+                    <child>
+                      <widget class="GtkMenuItem" id="mnuregistro_cliente">
+                        <property name="visible">True</property>
+                        <property name="label" translatable="yes">Registrar Clientes</property>
+                        <property name="use_underline">True</property>
+                        <signal name="activate" handler="on_mnuregistro_cliente_activate"/>
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkHBox" id="hbox2">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkNotebook" id="ntbPrincipal">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <widget class="GtkLabel" id="label4">
+                    <property name="visible">True</property>
+                    <property name="label" translatable="yes">label4</property>
+                  </widget>
+                  <packing>
+                    <property name="tab_fill">False</property>
+                    <property name="type">tab</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkVBox" id="vbox2">
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkToolbar" id="tlbPrincipal">
+                    <property name="visible">True</property>
+                    <property name="orientation">vertical</property>
+                    <property name="toolbar_style">icons</property>
+                    <property name="show_arrow">False</property>
+                    <child>
+                      <widget class="GtkToolButton" id="btnConectar">
+                        <property name="visible">True</property>
+                        <property name="tooltip" translatable="yes">Conectar</property>
+                        <property name="stock_id">gtk-connect</property>
+                        <signal name="clicked" handler="on_mnuConectar_activate"/>
+                      </widget>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="homogeneous">True</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="GtkToolButton" id="btnDesconectar">
+                        <property name="visible">True</property>
+                        <property name="tooltip" translatable="yes">Desconectar</property>
+                        <property name="stock_id">gtk-disconnect</property>
+                        <signal name="clicked" handler="on_mnuDesconectar_activate"/>
+                      </widget>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="homogeneous">True</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="GtkToolButton" id="btnSalir">
+                        <property name="visible">True</property>
+                        <property name="tooltip" translatable="yes">Salir</property>
+                        <property name="use_underline">True</property>
+                        <property name="stock_id">gtk-quit</property>
+                        <signal name="clicked" handler="on_mnuSalir_activate"/>
+                      </widget>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="homogeneous">True</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="GtkSeparatorToolItem" id="separatortoolitem1">
+                        <property name="visible">True</property>
+                      </widget>
+                      <packing>
+                        <property name="expand">False</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkHBox" id="hbox1">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkEntry" id="entEmpresa">
+                <property name="width_request">277</property>
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="can_focus">True</property>
+                <property name="has_frame">False</property>
+              </widget>
+              <packing>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkVSeparator" id="vseparator1">
+                <property name="visible">True</property>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkEntry" id="entSucursal">
+                <property name="width_request">277</property>
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="can_focus">True</property>
+                <property name="has_frame">False</property>
+              </widget>
+              <packing>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkVSeparator" id="vseparator2">
+                <property name="visible">True</property>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkEntry" id="entNombre">
+                <property name="width_request">277</property>
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="can_focus">True</property>
+                <property name="has_frame">False</property>
+              </widget>
+              <packing>
+                <property name="position">4</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkStatusbar" id="statusbar"/>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

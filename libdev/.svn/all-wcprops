@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/7/trunk/registroclientes/libdev
+END
+PopupMenu.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/registroclientes/libdev/PopupMenu.py
+END
+validar_email.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/registroclientes/libdev/validar_email.py
+END
+fechas.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/registroclientes/libdev/fechas.py
+END
+PrefixGladeApp.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/registroclientes/libdev/PrefixGladeApp.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/registroclientes/libdev/__init__.py
+END
+SValidarRut.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/registroclientes/libdev/SValidarRut.py
+END
+coneccion.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/registroclientes/libdev/coneccion.py
+END
+dialogos.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/registroclientes/libdev/dialogos.py
+END
+psycopg1.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/registroclientes/libdev/psycopg1.py
+END
+simple-glade-codegen.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/registroclientes/libdev/simple-glade-codegen.py
+END
+reindent.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/registroclientes/libdev/reindent.py
+END
+SimpleTree.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/registroclientes/libdev/SimpleTree.py
+END
+comunes.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/registroclientes/libdev/comunes.py
+END
+completion.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/registroclientes/libdev/completion.py
+END
+codificacion.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/registroclientes/libdev/codificacion.py
+END
+PixEntryCompletion.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/registroclientes/libdev/PixEntryCompletion.py
+END
+debugwindow.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/registroclientes/libdev/debugwindow.py
+END
+constantes.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/registroclientes/libdev/constantes.py
+END
+pyBusqueda.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/registroclientes/libdev/pyBusqueda.py
+END
+GladeConnect.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/registroclientes/libdev/GladeConnect.py
+END
+SimpleGladeApp.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/registroclientes/libdev/SimpleGladeApp.py
+END

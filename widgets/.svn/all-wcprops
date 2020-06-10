@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/registroclientes/widgets
+END
+CodProdEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CodProdEntryField.py
+END
+CustomComboBoxSearch.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CustomComboBoxSearch.py
+END
+DateEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/registroclientes/widgets/DateEntryField.py
+END
+CalsificacionClienteWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CalsificacionClienteWidget.py
+END
+NameEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/registroclientes/widgets/NameEntryField.py
+END
+DateWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/registroclientes/widgets/DateWidget.py
+END
+UnsignedIntegerEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/registroclientes/widgets/UnsignedIntegerEntryField.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/registroclientes/widgets/__init__.py
+END
+ScontoWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ScontoWidget.py
+END
+PersonaGiuridicaSearchWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/registroclientes/widgets/PersonaGiuridicaSearchWidget.py
+END
+ClasificacionClienteWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ClasificacionClienteWidget.py
+END
+SignedIntegerEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/registroclientes/widgets/SignedIntegerEntryField.py
+END
+CustomComboBoxModify.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CustomComboBoxModify.py
+END
+ScontiWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ScontiWidget.py
+END
+ClienteSearchWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ClienteSearchWidget.py
+END
+Sconti.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/registroclientes/widgets/Sconti.py
+END
+UnsignedDecimalEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/registroclientes/widgets/UnsignedDecimalEntryField.py
+END
+CustomLabel.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CustomLabel.py
+END
+DateTimeEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/registroclientes/widgets/DateTimeEntryField.py
+END
+ArticoloSearchWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ArticoloSearchWidget.py
+END
+DateTimeWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/registroclientes/widgets/DateTimeWidget.py
+END
+FornitoreSearchWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/registroclientes/widgets/FornitoreSearchWidget.py
+END
+SignedDecimalEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/registroclientes/widgets/SignedDecimalEntryField.py
+END
+FilterWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/registroclientes/widgets/FilterWidget.py
+END
+ContribuyenteWidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/registroclientes/widgets/ContribuyenteWidget.py
+END
+CustomEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CustomEntryField.py
+END
+NameLetterEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/registroclientes/widgets/NameLetterEntryField.py
+END
+RUTEntryField.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/registroclientes/widgets/RUTEntryField.py
+END
+CustomCodDesc.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/registroclientes/widgets/CustomCodDesc.py
+END

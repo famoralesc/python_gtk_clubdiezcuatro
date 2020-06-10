@@ -1,0 +1,18 @@
+#Tue Nov 23 20:13:34 CLST 2010
+eclipse.preferences.version=1
+encoding//libdev/GladeConnect.py=utf-8
+encoding//libdev/PixEntryCompletion.py=utf-8
+encoding//libdev/coneccion.py=utf-8
+encoding//libdev/debugwindow.py=UTF8
+encoding//libdev/dialogos.py=utf-8
+encoding//libdev/psycopg1.py=utf-8
+encoding//libdev/pyBusqueda.py=utf-8
+encoding//widgets/ArticoloSearchWidget.py=iso-8859-15
+encoding//widgets/CustomComboBoxSearch.py=iso-8859-15
+encoding//widgets/RUTEntryField.py=iso-8859-15
+encoding/frm_beneficios.py=UTF8
+encoding/frm_clientes.py=UTF8
+encoding/frm_institucion_educacional.py=UTF8
+encoding/frm_principal.py=UTF8
+encoding/frm_usuario.py=UTF8
+encoding/package.py=UTF8
